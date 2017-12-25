@@ -1,5 +1,5 @@
  
-##传参的三种方式
+## 传参的三种方式
 http请求中参数传递有三种方式,即  
 
     1. request head 中url的queryparams.    
@@ -10,7 +10,7 @@ http请求中参数传递有三种方式,即
 
     1. content-type为application/json、multipart/form-data等通过Payload传递,
     2. content-type为application/x-www-form-urlencoded时通过formdata传递
-##参数的三种格式
+## 参数的三种格式
 1. kv键值对的形式。对应的viewsource为 `a=a&b=b`  
 ![](http://wx1.sinaimg.cn/small/7defda4egy1fmt2f1mh1xj20qo03mt8x.jpg  ) 
 2.  json 的形式。对应的viewsource为 `{"a":"a","b":{"b1":"b1"}}`  
